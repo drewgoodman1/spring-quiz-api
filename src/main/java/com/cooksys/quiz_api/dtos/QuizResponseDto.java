@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class QuizResponseDto {
 
+  // for read  operations - pk needed - GET has no header
   private Long id;
 
   private String name;
